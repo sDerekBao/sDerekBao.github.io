@@ -1,0 +1,79 @@
+/*
+
+Bao:Derek;
+
+*/
+body {
+	font-size:25px;
+	background: #1368a3;
+	margin:0;
+	font-family: 'Indie Flower', cursive;
+}
+
+/*
+Layout
+----------------------------*/
+
+#wrapper {
+	padding:  1em 0;
+	width: 100%;
+	background: #012059;
+}
+
+#top,
+#container,
+footer {
+	margin: 0 auto;
+	width: 88%;
+    max-width:960px;
+}
+
+/*
+Navigation
+-------------------------*/
+
+nav ul {
+	float: left;
+	padding: 0;
+}
+
+nav ul li {
+	float:left;
+	margin: 0 .5em 0 0;
+	list-style: none;
+}
+nav ul li a {
+	text-decoration: none;
+	background: #000d25;
+	padding: .5em 1em;
+	border-radius: 30px;
+}
+
+nav ul li a:hover {
+	background:aqua;
+}
+
+/* Misc.
+-----------------------*/
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+a:hover {
+	color:red;
+
+}
+
+
+
+
+
+
+
+
+
